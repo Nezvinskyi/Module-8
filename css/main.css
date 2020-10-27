@@ -1,5 +1,112 @@
-body {
-  background-color: #d83131;
-  color: #000;
+.features-set, .reviews-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.company-logo {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  border-bottom: 2px solid #000;
+}
+
+.page-header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.company-logo {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.section.features {
+  background-color: teal;
+}
+
+.section.reviews {
+  background-color: yellow;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.features-item {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.features-item:nth-child(1) {
+  background-color: #F44336;
+}
+
+.features-item:nth-child(2) {
+  background-color: #3F51B5;
+}
+
+.features-item:nth-child(3) {
+  background-color: #4CAF50;
+}
+
+.features-item:nth-child(4) {
+  background-color: #00BCD4;
+}
+
+.features-item:nth-child(5) {
+  background-color: #E91E63;
+}
+
+.features-item:nth-child(6) {
+  background-color: #009688;
+}
+
+.reviews-item {
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  font-size: 48px;
+}
+
+.reviews-item:nth-child(1) {
+  background-color: #795548;
+}
+
+.reviews-item:nth-child(2) {
+  background-color: #607D8B;
+}
+
+.reviews-item:nth-child(3) {
+  background-color: #7B1FA2;
 }
 /*# sourceMappingURL=main.css.map */
